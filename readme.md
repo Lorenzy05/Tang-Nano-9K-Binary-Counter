@@ -28,7 +28,7 @@ A 4-bit binary counter implemented on the Tang Nano 9K FPGA development board. T
 ### Pin Configuration
 | Signal | Pin | Description |
 |--------|-----|-------------|
-| `clk` | 35 | 27MHz system clock |
+| `clk` | 52 | 27MHz system clock |
 | `rst_n` | 4 | S1 button (active low reset) |
 | `enable_btn` | 3 | S2 button (increment counter) |
 | `leds[0]` | 10 | LED0 - LSB of counter |
@@ -115,3 +115,4 @@ project/
    - 按下S1按钮复位清零
    - 通过LED 0-3观察二进制数值
    - 通过LED 4-5检查奇偶状态
+
